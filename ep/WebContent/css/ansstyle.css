@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	background: aliceblue;
+}
+.container{
+    margin: 10px 30px 10px 30px;
+    width: 95%;
+    padding:10px;
+}
+
+#arrow{
+    border: none;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #07294d;
+}
+
+.quesbox{
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #07294d;
+}
+
+.quesbox h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 0px;
+    text-shadow: 0 0 5px peachpuff;
+}
+
+.quesbox h3{
+    font-weight: 550;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.quesbox button{
+    float:right;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 25px;
+	background: #696969;
+	border: 1px solid #07294d;
+	width: 150px;
+	height: 30px;
+	font-weight: 500px;
+	color: aliceblue;
+}
+.quesbox button:hover{
+	background: peachpuff;
+    color: #07294d;
+}
+
+.ansbox{
+    padding: 10px 20px; 
+    margin-bottom: 15px;
+    border: 1px solid #07294d;
+    border-radius: 5px;
+    background: floralwhite;
+    box-shadow: 10px 10px #07294d;
+}
+.box1{
+	margin-bottom: 5px;
+}
+
+.box2 p{
+    margin: 3px;
+    margin-left: 0px;
+    font-family: Georgia, monospace;
+}
+
+.box1 h5{
+    color: red;
+	font-size: 14px;
+    font-weight: 700;
+    color: red;
+}
+.box1 Button{
+	float: right;
+    padding: 3px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.ansbox #upvote, #downvote{
+    margin-left: 10px;
+    float: left;    
+    height: 20px;
+}
+#upvote:hover{
+    background: #07294d;
+    color: floralwhite;
+}
+#downvote:hover{
+	background: #07294d;
+    color: floralwhite;
+}
+.ansbox h4{
+    display: inline-block;
+}
+.upper{
+    flex: 4;
+    margin-right: 10px;
+}
+.lower{
+	margin-top: 10px;
+	margin-left: 50px;
+	display: flex;
+    margin-bottom: 0px;
+}

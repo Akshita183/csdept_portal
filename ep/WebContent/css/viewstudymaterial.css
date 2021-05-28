@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+body, html{
+	/*align-items:center;*/
+	justify-content:center;
+	background: #ddd;
+	width:100%;
+	height:100%;
+	
+}
+
+.card-img{
+	opacity: 0.5;
+	transition: .10s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+	margin-bottom: 10px;
+}
+
+.card-img-overlay{
+position: absolute;
+top:0;
+left:0;
+height:100%;
+width: 100%;
+background: rgba(0,0,0,0.2);
+color: black;	
+font-family: 'Quicksand' , sans-serif;
+display: flex;
+flex-direction:column;
+/*align-items: center;*/
+/*justify-content:center;*/
+opacity: 0;
+transition: opacity 0.25s;
+
+
+}
+
+.card-img-overlay:hover{
+	opacity:1;
+}
+
+.card-course-title{
+	font-size: 2em;
+	font-weight: bold;
+	
+}
+
+.card-course-description{
+	font-size: 1.25em;
+	margin-top:0.25em;
+}
+
+.card-header{
+	background-color:#AFEEEE;
+	font-family: 'Quicksand' , sans-serif;
+}
+.card-title{
+	font-family: 'Quicksand' , sans-serif;
+}
+
+.card-text{
+	font-family: 'Quicksand' , sans-serif;
+}
+/* trying sm cards*/
+
+.container{
+	width:100%;
+}
+
+.fadedfx {
+  background-color: #fe5652;
+  visibility: hidden;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,46 @@
+.welcome{
+	background-size: contain,cover;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-color: black;
+  	height:500px;
+  	width: 100%;
+  	color: #07294d;	
+  	margin: inherit;
+  	text-align: center;
+}
+
+.welcome h1{
+	margin-top: 20px;
+}
+
+.navbar{
+	background-color: #07294d;
+	color: #E5A186;
+}
+
+.navbar li a{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #07294d;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    position: relative;
+    
+}
+
+.navbar > li > a:hover{
+    color: peachpuff;
+}
+
+.navbar-header{
+	margin-top:5px;
+	margin-right:10px;
+}
+
+#logbut{
+	margin-top:5px;
+	margin-right:20px;
+}

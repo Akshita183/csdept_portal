@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+
+body {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 14px
+}
+
+img .ss{
+  
+  padding: 5px;
+  width: 150px;
+  height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.uploadbutton {
+margin-top: 1em;
+font-size: 1em;
+      font-weight: 300;
+      background-color: rgba(45,170,126,.9);
+      border-color: rgba(45,170,126,.9);
+      color: #fff;
+      padding: .5em 0;
+      cursor: pointer;
+      transition: all .25s;
+      width: 500px;
+      padding-bottom:10px;
+
+@media (max-width: 500px) {
+        font-size: .8em;
+      }
+      
+
+}
+.uploadbutton:hover {
+      box-shadow: 0 2px 3px 0 rgba(0,0,0,.25);
+}

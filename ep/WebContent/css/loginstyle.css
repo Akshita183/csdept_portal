@@ -1,0 +1,90 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("https://cdn.hipwallpaper.com/i/75/68/8BWvUj.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Open Sans';
+	
+}
+h1{
+	font-size: 40px;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+h3{
+	color: white;
+}
+.label{
+	font-size: 20px;
+	color: white;
+	font-weight: normal;
+}
+.form-control{
+	background: rgba(255,255,255,0,2);
+	border: 0px;
+	border-radius: 10px;
+	border-bottom: 2px solid #07294d;
+	font-size: 21px;
+	font-weight: 800px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+input[type="checkbox"]{
+	height: 15px;
+	width: 15px; 
+}
+
+small{
+	font-size: 19px;
+	color: white;
+}
+.btn-info{
+	background: #07294d;
+	border: 2px solid yellow;
+	border-radius: 0px;
+	width: 250px;
+	margin-top: 20px;
+	margin-left: 40px;
+	
+	font-size: 20px;
+	font-weight: 500px;
+	background: transparent;
+}
+.btn-info:hover{
+	background: yellow;
+	border: 2px solid #07294d;
+	color: red; 
+}
+p{
+	font-size: 16px;
+	margin-top: 40px;
+	color: yellow;
+}
+p a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+p a:hover{
+	text-decoration: none;
+	color: red;
+}
+img{
+	width: 102%;
+	height: 550px;
+	margin-left: 0px;
+}
+input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}

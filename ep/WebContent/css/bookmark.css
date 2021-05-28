@@ -1,0 +1,178 @@
+.containercourse {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: black;
+	overflow-y: scroll;
+	max-height: 713px;
+}
+
+.course {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 235px;
+	padding: 1rem;
+	margin: 5px;
+	z-index: 0;
+	cursor: pointer;
+}
+
+.course:before {
+	content: ' ';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 88%;
+	height: 88%;
+	background: #2f3640;
+	border-radius: 15px;
+	z-index: -1;
+}
+
+.course .category-flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.course .category {
+	width: 80%;
+	margin: auto;
+	font-family: 'Lato', sans-serif;
+	margin-top: 2px;
+	font-size: 1rem;
+	font-weight: 600;
+	text-align: center;
+	background-color: black;
+	border-radius: 15px;
+	color: white;
+}
+
+.course:hover .metrics {
+	height: 10px;
+	opacity: 1;
+	margin-top: 25px;
+	transition: all 150ms ease;
+}
+
+.course:hover:before {
+	width: 100%;
+	height: 100%;
+	transition: all 150ms ease;
+}
+
+.course-image {
+	height: 200px;
+	width: 200px;
+	border-radius: 15px;
+}
+
+.course-user {
+	height: 78px;
+	padding: 5px 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.course-user-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+}
+
+.course-user-details {
+	flex: 1;
+	color: white;
+	padding: 0 0.5rem;
+	overflow: hidden;
+}
+
+.course-user-details  .title {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin: 0;
+}
+
+.course-user-details .name {
+	font-size: 0.875rem;
+	margin: 0;
+}
+
+.metrics {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 0px;
+	opacity: 0;
+}
+
+.metrics .rat {
+	height: 24px;
+	background-color: black;
+	color: white;
+	margin-right: 2px;
+	border-radius: 5px;
+}
+
+.metrics .A {
+	height: 24px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+
+.metrics .B {
+	height: 24px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+
+.metrics .C {
+	height: 24px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+
+.fa {
+	padding: 4px;
+}
+
+.metrics .rat:hover {
+	background-color: white;
+	color: black;
+}
+
+.metrics .A:hover {
+	background-color: white;
+	color: black;
+}
+
+.metrics .B:hover {
+	background-color: white;
+	color: black;
+}
+
+.metrics .C:hover {
+	background-color: white;
+	color: black;
+}
+
+.metrics .rat:hover i {
+	color: green;
+}
+
+.metrics .A:hover i {
+	color: palevioletred;
+}
+
+.metrics .B:hover i {
+	color: blue;
+}
+
+.metrics .C:hover i {
+	color: red;
+}

@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+	height: 100%;
+}
+
+body {
+    font-family: "Raleway";
+    background-color: #e6e6e6;
+    
+  background: linear-gradient(45deg, rgba(4, 2, 96, 0.7), rgba(180, 49, 183, 0.9)), linear-gradient(90deg, rgba(51, 136, 140, 0.3), rgba(87, 240, 240, 0.1));
+  
+}
+
+.card {
+    width: 400px;
+    margin: 150px auto 0;
+    background-color: #fff;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, .14);
+    color: #444;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.card .card-header {
+    position: relative;
+    height: 48px;
+}
+
+.card .card-header .glyphicon-user {
+    width: 96px;
+    height: 96px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 6px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    color: black;
+}
+
+.card .card-body {
+    padding: 10px 40px;
+}
+
+
+.card .card-body .full-name {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+}
+
+.card .card-body .email {
+    font-size: 20px;
+    color: red;
+    margin: 5px 0 0;
+    font-weight: 600;
+}
+
+.card .card-body .class {
+	font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0 0;
+}
+.card .card-footer {
+    display: table;
+    width: 100%;
+    border-top: 2px solid gray;
+}
+
+.card .card-footer .col {
+    display: table-cell;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.card .card-header .profile-img {
+    width: 96px;
+    height: 96px;
+    border-radius: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 6px solid #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+.vr {
+    border-right: 2px solid gray;
+}
+
+@media screen and (max-width: 575px) {
+    .card {
+        width: 96%;
+    }
+
+    .card .card-body {
+        padding: 10px 20px;
+    }
+
+    .card .card-footer .col {
+        padding: 0 10px;
+    }
+
+    
+}

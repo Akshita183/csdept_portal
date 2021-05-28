@@ -1,0 +1,29 @@
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+#socialbox{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    display: flex;
+}
+
+#socialinbox{
+    flex: 1;
+    margin: 0px 100px;
+    padding: 0px 5px;
+}
+#footer {
+    padding:5px 20px;
+    background-color: #07294d;
+    text-align:right;
+    color:#fff;
+    font-size:16px;
+}
+
+.loc-class{
+    font-size: 28px;
+    margin: 0px;
+}
